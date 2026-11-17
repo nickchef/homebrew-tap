@@ -1,8 +1,8 @@
 class Ssync < Formula
   desc "Centralize AI agent skills in ~/.agents/skills"
   homepage "https://github.com/nickchef/ssync"
-  url "https://github.com/nickchef/ssync/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "0c8eb61e2447fa95c9d84e58bbff7e3480d80d307e12c656f6bd47627cb0cb1a"
+  url "https://github.com/nickchef/ssync/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "34fa64c0c517c5b5bf0ff794b47de94dda449e52e39711075f247cb707132492"
   head "https://github.com/nickchef/ssync.git", branch: "main"
 
   depends_on "go" => :build
